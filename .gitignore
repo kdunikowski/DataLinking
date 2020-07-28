@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+/.mvn/wrapper/*.jar
+/.mvn/wrapper/*.properties
+/logs/2020-07/*.gz
+/logs/*.log

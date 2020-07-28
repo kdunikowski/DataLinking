@@ -1,8 +1,8 @@
-package com.kdunikowski.data.linking.service;
+package com.kdunikowski.data.linking.services;
 
 import com.kdunikowski.data.linking.models.DatabaseNumber;
 import com.kdunikowski.data.linking.repositories.DatabaseNumberRepository;
-import org.junit.jupiter.api.Assertions;
+import com.kdunikowski.data.linking.services.data.receivers.DatabaseNumberGetterService;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -22,7 +22,7 @@ class DatabaseNumberGetterTest {
     private DatabaseNumberRepository databaseNumberRepository;
 
     @InjectMocks
-    DatabaseNumberGetter sut;
+    DatabaseNumberGetterService sut;
 
     @Test
     void shouldGetZeroBecauseEmptyDatabase() {

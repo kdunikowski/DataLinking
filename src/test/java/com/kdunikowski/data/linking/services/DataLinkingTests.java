@@ -1,4 +1,4 @@
-package com.kdunikowski.data.linking.service;
+package com.kdunikowski.data.linking.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,11 +10,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DataLinkingTests {
 
     @Autowired
-    NumberLinking numberLinking;
+    NumberLinkingService numberLinking;
 
     @Test
     void shouldTestAddingTwoNumbers() {
-        assertEquals(18, numberLinking.addition(9d, 9d));
+        assertEquals(18, numberLinking.linkData(9d, 9d));
     }
 
 }

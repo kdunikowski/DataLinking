@@ -20,14 +20,12 @@ public class CommonValues {
     public static final String ASSIGNMENT = "=";
     public static final String MIN = "min";
     public static final String SUCCESS_STATUS = "success";
-    public static final String ERROR_MESSAGE_SECOND_AUGEND = "Argument secondAugend is not a number: ";
     public static final String FIRST_AUGEND = "firstAugend";
     public static final String SECOND_AUGEND = "secondAugend";
     public static final String ZERO = "0.0";
     public static final String NUMBERS = "/numbers";
     public static final String ADDITION = "/addition";
     public static final String ADDITION_REST_RANDOM_AND_DATABASE = "/addition/rest/random/database";
-    public static final String ERROR_MESSAGE_FIRST_AUGEND = "Argument firstAugend is not a number: ";
     public static final String CANNOT_RECEIVE_VALUE_FROM_REST_API = "Cannot receive value from rest api.";
 
     @PostConstruct
