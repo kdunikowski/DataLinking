@@ -1,4 +1,4 @@
-package com.kdunikowski.data.linking.services;
+package com.kdunikowski.data.linking.services.data.receivers;
 
 import com.kdunikowski.data.linking.exceptions.CannotGetRestRandomExceptions;
 import com.kdunikowski.data.linking.services.data.receivers.RestRandomNumberGetterService;
@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @ExtendWith(MockitoExtension.class)
 @SpringBootTest
-class RestRandomNumberGetterTest {
+class RestRandomNumberGetterServiceTests {
 
     protected static final String RANDOM_NUMBER_URL_WITH_PARAMS = "RANDOM_NUMBER_URL_WITH_PARAMS";
     protected static final String HTTPS_CSRNG_NET_CSRNG_CSRNG_PHP_MIN_0_MAX_100 = "https://csrng.net/csrng/csrng.php?min=0&max=100";

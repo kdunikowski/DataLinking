@@ -1,4 +1,4 @@
-package com.kdunikowski.data.linking.services;
+package com.kdunikowski.data.linking.services.data.receivers;
 
 import com.kdunikowski.data.linking.models.DatabaseNumber;
 import com.kdunikowski.data.linking.repositories.DatabaseNumberRepository;
@@ -15,7 +15,7 @@ import static org.springframework.test.util.AssertionErrors.assertEquals;
 
 
 @SpringBootTest
-class DatabaseNumberGetterTest {
+class DatabaseNumberGetterServiceTests {
 
 
     @Mock
